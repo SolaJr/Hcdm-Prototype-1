@@ -2051,8 +2051,8 @@
 }
 
 .feature-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .feature-image-mask {
@@ -2071,6 +2071,7 @@
 
 .box-padding {
   width: auto;
+  margin-top: 0px;
   padding: 1.6em 1em;
   background-color: transparent;
   background-image: none;
@@ -2179,6 +2180,7 @@
 }
 
 .heading-18 {
+  display: none;
   margin-top: 60px;
   color: #fff;
   text-align: center;
@@ -2299,8 +2301,7 @@
 
 .white-box.two-third {
   width: 100%;
-  margin-right: 1%;
-  margin-left: 1%;
+  margin: -20vh 1% 29%;
   border-radius: 20px;
   background-color: hsla(0, 0%, 100%, 0.97);
 }
@@ -2486,7 +2487,7 @@
 }
 
 .background-video-4 {
-  display: none;
+  display: inline;
 }
 
 .background-video-5 {
@@ -2499,14 +2500,11 @@
 }
 
 .hero-overlay {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 90vh;
+  display: block;
+  height: auto;
   max-height: 780px;
-  padding-top: 0%;
-  padding-bottom: 100px;
+  padding-top: 10%;
+  padding-bottom: 10%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
